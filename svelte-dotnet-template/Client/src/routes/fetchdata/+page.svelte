@@ -2,12 +2,13 @@
     import PageTitle from "../components/PageTitle.svelte";
     import { onMount } from "svelte";
     import { WeatherForecast } from "../models/WeatherForecast";
+    import { Api } from "../../api";
 
     let forecasts : Array<WeatherForecast>;
 
     onMount(async () =>
     {
-        let response = await fetch("https://localhost:7216/weatherforecast");
+        let response = await Api.fetch("weatherforecast");
         let json = await response.json();
 
         forecasts = [];
