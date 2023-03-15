@@ -1,4 +1,4 @@
-namespace svelte_dotnet_template.Shared
+namespace svelte_dotnet_template.Server.Models
 {
     public class WeatherForecast
     {

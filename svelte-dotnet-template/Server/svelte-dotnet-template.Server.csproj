@@ -12,9 +12,5 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="7.0.1" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Shared\svelte-dotnet-template.Shared.csproj" />
-  </ItemGroup>
-
 
 </Project>

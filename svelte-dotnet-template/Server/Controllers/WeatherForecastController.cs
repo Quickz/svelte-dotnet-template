@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using svelte_dotnet_template.Shared;
+using svelte_dotnet_template.Server.Models;
 
 namespace svelte_dotnet_template.Server.Controllers
 {
