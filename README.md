@@ -1,0 +1,36 @@
+# svelte-dotnet-template
+
+A simple project template for working with Svelte and ASP.NET.
+The template consists of 2 projects - a Svelte project (Client) that utilizes SvelteKit for the routing and an ASP.NET API (Server).
+
+The project is using <b>Svelte 3</b> and <b>.NET 7.</b>
+
+# Client
+## Prerequisites
+
+This project requires [NodeJS](http://nodejs.org/) (version 18 or later) and [NPM](https://npmjs.org/).
+To make sure you have them available on your machine,
+try running the following command.
+
+```sh
+$ npm -v && node -v
+9.5.0
+v18.14.1
+```
+
+## Installation
+
+```bash
+npm install
+```
+
+## Serving the app
+```bash
+npm run dev
+```
+
+# Recommendations
+
+The template was created with the intention of using [VS Code](https://code.visualstudio.com/)
+for the [Client](https://github.com/Quickz/svelte-dotnet-template/tree/main/svelte-dotnet-template/Client)
+and [Visual Studio](https://visualstudio.microsoft.com/) for the [Server](https://github.com/Quickz/svelte-dotnet-template/tree/main/svelte-dotnet-template/Server). You are free to use whatever tools you prefer though.
