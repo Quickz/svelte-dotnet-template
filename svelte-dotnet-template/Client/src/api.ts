@@ -6,7 +6,7 @@ export module Api
         input: RequestInfo | URL,
         init?: RequestInit): Promise<Response>
     {
-        let targetInput = `${config.apiEndppoint}/${input}`;
+        let targetInput = `${config.apiEndpoint}/${input}`;
         return globalThis.fetch(targetInput, init);
     }
 }
