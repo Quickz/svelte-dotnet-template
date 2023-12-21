@@ -6,8 +6,8 @@ namespace svelte_dotnet_template.Server.Controllers;
 [Route("[controller]")]
 public class WeatherForecastController : ControllerBase
 {
-    private static readonly string[] Summaries = new[]
-    {
+    private static readonly string[] Summaries =
+    [
         "Freezing",
         "Bracing",
         "Chilly",
@@ -18,7 +18,7 @@ public class WeatherForecastController : ControllerBase
         "Hot",
         "Sweltering",
         "Scorching",
-    };
+    ];
 
     private readonly ILogger<WeatherForecastController> _logger;
 
