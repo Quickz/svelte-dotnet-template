@@ -1,26 +1,21 @@
 <script lang="ts">
     import PageTitle from "../components/PageTitle.svelte";
     import { onMount } from "svelte";
-    import { WeatherForecast } from "../models/WeatherForecast";
-    import { Api } from "../../api";
+    import { Api, type WeatherForecast } from "../../Api";
+    import { config } from "../../config";
 
-    let forecasts : Array<WeatherForecast>;
+    let forecasts : Array<WeatherForecast> = [];
 
     onMount(async () =>
     {
-        let response = await Api.fetch("weatherforecast");
-        let json = await response.json();
-
-        forecasts = [];
+        const api = new Api();
+        api.baseUrl = config.apiEndpoint;
         
-        for (let i = 0; i < json.length; i++)
+        const response = await api.weatherForecast.weatherForecastList();
+        
+        if (response.status == 200)
         {
-            let data = new WeatherForecast();
-            data.date = new Date(json[i].date);
-            data.summary = json[i].summary;
-            data.temperatureC = json[i].temperatureC;
-
-            forecasts.push(data);
+            forecasts = response.data;
         }
     });
 </script>
@@ -46,7 +41,7 @@
         <tbody>
             {#each forecasts as forecast}
                 <tr>
-                    <td>{forecast.date.toLocaleDateString()}</td>
+                    <td>{new Date(forecast.date ?? "").toLocaleDateString()}</td>
                     <td>{forecast.temperatureC}</td>
                     <td>{forecast.temperatureF}</td>
                     <td>{forecast.summary}</td>

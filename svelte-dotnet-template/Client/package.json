@@ -3,6 +3,7 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
+		"generate-api-classes": "npx swagger-typescript-api -p \"https://localhost:7216/swagger/v1/swagger.json\" -o ./src/",
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
