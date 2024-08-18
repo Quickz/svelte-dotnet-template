@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "svelte-dotnet-template.Serv
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Client", "svelte-dotnet-template\Client\", "{EB52133A-13B8-4C56-A581-540E7093CA94}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_52137"
 		Debug.AspNetCompiler.PhysicalPath = "svelte-dotnet-template\Client\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52137\"
