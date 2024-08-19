@@ -1,0 +1,22 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Quickz",
+    "classifications": [
+        "API",
+        "Web",
+        "Web API",
+        "Svelte",
+        "SvelteKit"
+    ],
+    "identity": "Dotnet.Svelte.Template",
+    "name": "Svelte and ASP.NET Core",
+    "shortName": "svelte",
+    "sourceName": "Dotnet.Svelte.Template",
+    "defaultName": "SvelteApp",
+    "description": "A full-stack application with a frontend Svelte project that utilizes SvelteKit and a backend ASP.NET Core Web API",
+    "icon": "icon.png",
+    "tags": {
+        "language": "TypeScript",
+        "type": "project"
+    }
+}
