@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-using svelte_dotnet_template.Server.Models;
-namespace svelte_dotnet_template.Server.Controllers;
+using Svelte.Dotnet.Template.Server.Models;
+namespace Svelte.Dotnet.Template.Server.Controllers;
 
 [ApiController]
 [Route("[controller]")]
