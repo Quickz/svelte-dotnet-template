@@ -8,10 +8,10 @@
         "Svelte",
         "SvelteKit"
     ],
-    "identity": "Dotnet.Svelte.Template",
+    "identity": "Svelte.Dotnet.Template",
     "name": "Svelte and ASP.NET Core",
     "shortName": "svelte",
-    "sourceName": "Dotnet.Svelte.Template",
+    "sourceName": "Svelte.Dotnet.Template",
     "defaultName": "SvelteApp",
     "description": "A full-stack application with a frontend Svelte project that utilizes SvelteKit and a backend ASP.NET Core Web API",
     "icon": "icon.png",
