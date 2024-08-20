@@ -6,7 +6,8 @@
         "Web",
         "Web API",
         "Svelte",
-        "SvelteKit"
+        "SvelteKit",
+        "C#"
     ],
     "identity": "Svelte.Dotnet.Template",
     "name": "Svelte and ASP.NET Core",
