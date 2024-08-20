@@ -5,26 +5,7 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "svelte-dotnet-template.Server", "svelte-dotnet-template\Server\svelte-dotnet-template.Server.csproj", "{ED6656E0-57E2-4B27-BB53-B2E0A5554B93}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Client", "svelte-dotnet-template\Client\", "{EB52133A-13B8-4C56-A581-540E7093CA94}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_52137"
-		Debug.AspNetCompiler.PhysicalPath = "svelte-dotnet-template\Client\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52137\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_52137"
-		Release.AspNetCompiler.PhysicalPath = "svelte-dotnet-template\Client\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52137\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "52137"
-		SlnRelativePath = "svelte-dotnet-template\Client\"
-	EndProjectSection
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "Dotnet.Svelte.Template", "svelte-dotnet-template\Client\Dotnet.Svelte.Template.esproj", "{09FC9A34-8EA4-43AF-9BF2-B895B97D9169}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,10 +17,12 @@ Global
 		{ED6656E0-57E2-4B27-BB53-B2E0A5554B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED6656E0-57E2-4B27-BB53-B2E0A5554B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED6656E0-57E2-4B27-BB53-B2E0A5554B93}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EB52133A-13B8-4C56-A581-540E7093CA94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EB52133A-13B8-4C56-A581-540E7093CA94}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EB52133A-13B8-4C56-A581-540E7093CA94}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{EB52133A-13B8-4C56-A581-540E7093CA94}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{09FC9A34-8EA4-43AF-9BF2-B895B97D9169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09FC9A34-8EA4-43AF-9BF2-B895B97D9169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09FC9A34-8EA4-43AF-9BF2-B895B97D9169}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{09FC9A34-8EA4-43AF-9BF2-B895B97D9169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09FC9A34-8EA4-43AF-9BF2-B895B97D9169}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09FC9A34-8EA4-43AF-9BF2-B895B97D9169}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
