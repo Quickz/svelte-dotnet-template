@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Quickz",
+  "classifications": [
+    "API",
+    "Web",
+    "Web API",
+    "Svelte",
+    "SvelteKit",
+    "C#"
+  ],
+  "identity": "Svelte.Dotnet.Template",
+  "name": "Svelte and ASP.NET Core",
+  "shortName": "svelte",
+  "sourceName": "Svelte.Dotnet.Template",
+  "defaultName": "SvelteApp",
+  "description": "A full-stack application with a frontend Svelte project that utilizes SvelteKit and a backend ASP.NET Core Web API",
+  "icon": "icon.png",
+  "tags": {
+    "language": "TypeScript",
+    "type": "solution"
+  },
+  "guids": [
+    "EB52133A-13B8-4C56-A581-540E7093CA94",
+    "ED6656E0-57E2-4B27-BB53-B2E0A5554B93"
+  ],
+  "groupIdentity": "Quickz.Templates",
+  "primaryOutputs": [
+    //{
+    //  "path": "./Svelte.Dotnet.Template.Client/Svelte.Dotnet.Template.Client.csproj"
+    //},
+    {
+      "path": "./Svelte.Dotnet.Template.Server/Svelte.Dotnet.Template.Server.csproj"
+    }
+  ]
+}

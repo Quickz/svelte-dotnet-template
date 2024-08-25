@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageType>Template</PackageType>
+    <PackageVersion>1.0.0</PackageVersion>
+    <PackageId>Svelte.Dotnet.Template</PackageId>
+    <Title>Svelte and ASP.NET Core</Title>
+    <Authors>Quickz</Authors>
+    <Description>A full-stack application with a frontend Svelte project that utilizes SvelteKit and a backend ASP.NET Core Web API</Description>
+    <PackageTags>dotnet-new;templates;API;Web;Web API;Svelte;SvelteKit;C#;TypeScript</PackageTags>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+    <NoDefaultExcludes>true</NoDefaultExcludes>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="**\*.*" Exclude="**\bin\**;**\obj\**;**\.git" Pack="true" PackagePath="contentFiles\any\any" />
+    <Compile Remove="**\*" />
+  </ItemGroup>
+</Project>
