@@ -1,18 +1,19 @@
 # Svelte .NET Template
 
+![image](https://github.com/user-attachments/assets/e3030a5d-33f0-49db-ab09-b5ba9934ada0)
+
 A simple project template for working with Svelte and ASP.NET.
 The template consists of 2 projects - a Svelte project (Client) that utilizes SvelteKit for the routing and an ASP.NET API (Server).
 
 The project is using <b>Svelte 4</b> and <b>.NET 8.</b>
+<br>
 
 # Installing the template
 
-Using NuGet:
+Using [NuGet](https://www.nuget.org/packages/Svelte.Dotnet.Template):
 ```cmd
 dotnet new install Svelte.Dotnet.Template
 ```
-https://www.nuget.org/packages/Svelte.Dotnet.Template
-
 
 # Client
 ## Prerequisites
