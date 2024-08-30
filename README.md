@@ -7,12 +7,10 @@ The project is using <b>Svelte 4</b> and <b>.NET 8.</b>
 
 # Installing the template
 
-Using NuGet:
+Using [NuGet](https://www.nuget.org/packages/Svelte.Dotnet.Template):
 ```cmd
 dotnet new install Svelte.Dotnet.Template
 ```
-https://www.nuget.org/packages/Svelte.Dotnet.Template
-
 
 # Client
 ## Prerequisites
