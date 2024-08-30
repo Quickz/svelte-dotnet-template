@@ -55,6 +55,11 @@ You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
 
+## Generating code from Swagger API
+To regenerate TypeScript code around interacting with the Web API:
+```bash
+npm run generate-api-classes
+```
 
 
 
