@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <PackageType>Template</PackageType>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.1</PackageVersion>
     <PackageId>Svelte.Dotnet.Template</PackageId>
     <Title>Svelte.Dotnet.Template</Title>
     <Authors>Quickz</Authors>
