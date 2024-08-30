@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
-		"generate-api-classes": "npx ts-node ./src/generateApiClasses.ts",
+		"generate-api-classes": "npx tsx ./src/generateApiClasses.ts",
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
@@ -16,7 +16,9 @@
 		"@types/node": "^20.10.5",
 		"svelte": "^4.2.8",
 		"svelte-check": "^3.6.2",
+		"swagger-typescript-api": "^13.0.3",
 		"tslib": "^2.6.2",
+		"tsx": "^4.19.0",
 		"typescript": "^5.3.3",
 		"vite": "^5.0.10"
 	},
