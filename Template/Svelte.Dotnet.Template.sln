@@ -5,26 +5,7 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Svelte.Dotnet.Template.Server", "Svelte.Dotnet.Template\Svelte.Dotnet.Template.Server\Svelte.Dotnet.Template.Server.csproj", "{ED6656E0-57E2-4B27-BB53-B2E0A5554B93}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Svelte.Dotnet.Template.Client", "Svelte.Dotnet.Template\Svelte.Dotnet.Template.Client\", "{EB52133A-13B8-4C56-A581-540E7093CA94}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_52137"
-		Debug.AspNetCompiler.PhysicalPath = "Svelte.Dotnet.Template\Svelte.Dotnet.Template.Client\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52137\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_52137"
-		Release.AspNetCompiler.PhysicalPath = "Svelte.Dotnet.Template\Svelte.Dotnet.Template.Client\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52137\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "52137"
-		SlnRelativePath = "Svelte.Dotnet.Template\Svelte.Dotnet.Template.Client\"
-	EndProjectSection
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "Svelte.Dotnet.Template.Client", "Svelte.Dotnet.Template\Svelte.Dotnet.Template.Client\Svelte.Dotnet.Template.Client.esproj", "{EB52133A-13B8-4C56-A581-540E7093CA94}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
