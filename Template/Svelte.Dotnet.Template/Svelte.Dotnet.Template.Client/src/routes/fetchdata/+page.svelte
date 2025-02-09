@@ -1,7 +1,7 @@
 <script lang="ts">
     import PageTitle from "../components/PageTitle.svelte";
     import { onMount } from "svelte";
-    import { Api, type WeatherForecast } from "../../Api";
+    import { Api, type WeatherForecast } from "../../api";
     import { config } from "../../config";
 
     let forecasts : Array<WeatherForecast> = [];

@@ -1,6 +1,6 @@
-cd template
+cd Template
 dotnet pack Svelte.Dotnet.Template.csproj
-cd bin/release
+cd bin/Release
 dotnet new uninstall Svelte.Dotnet.Template
 dotnet new install Svelte.Dotnet.Template.1.0.1.nupkg
 pause
