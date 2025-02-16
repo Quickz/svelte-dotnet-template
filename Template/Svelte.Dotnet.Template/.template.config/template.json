@@ -26,9 +26,9 @@
   ],
   "groupIdentity": "Quickz.Templates",
   "primaryOutputs": [
-    //{
-    //  "path": "./Svelte.Dotnet.Template.Client/Svelte.Dotnet.Template.Client.csproj"
-    //},
+    {
+      "path": "./Svelte.Dotnet.Template.Client/Svelte.Dotnet.Template.Client.esproj"
+    },
     {
       "path": "./Svelte.Dotnet.Template.Server/Svelte.Dotnet.Template.Server.csproj"
     }
