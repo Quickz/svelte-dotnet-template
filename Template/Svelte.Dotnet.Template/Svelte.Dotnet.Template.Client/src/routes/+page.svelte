@@ -13,7 +13,7 @@ Welcome to your new app.
     <span>
         Feel free to check out some of their
         <a class="font-weight-bold link-dark"
-           href="https://svelte.dev/tutorial/basics"
+           href="https://svelte.dev/tutorial/svelte/welcome-to-svelte"
            target="_blank"
            rel="noreferrer">tutorials</a>
     </span>
