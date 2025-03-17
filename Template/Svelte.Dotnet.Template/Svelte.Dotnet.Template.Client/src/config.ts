@@ -1,4 +1,4 @@
 export const config =
 {
-    apiEndpoint: "https://localhost:7216"
+    apiEndpoint: "http://localhost:7216"
 };
