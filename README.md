@@ -5,7 +5,7 @@
 A simple project template for working with Svelte and ASP.NET.
 The template consists of 2 projects - a Svelte project (Client) that utilizes SvelteKit for the routing and an ASP.NET API (Server).
 
-The project is using **Svelte 5** and **.NET 8**.
+The project is using **Svelte 5** and **.NET 9**.
 <br>
 
 # Installing the template
