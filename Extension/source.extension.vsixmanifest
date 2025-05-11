@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
 	<Metadata>
-		<Identity Id="Svelte.Dotnet.Template.Extension.3bcd1385-4913-4256-9cd3-646ab0d017a9" Version="1.0.1" Language="en-US" Publisher="Quickz" />
+		<Identity Id="Svelte.Dotnet.Template.Extension.3bcd1385-4913-4256-9cd3-646ab0d017a9" Version="1.0.2" Language="en-US" Publisher="Quickz" />
 		<DisplayName>Svelte ASP.NET Core Template</DisplayName>
 		<Description xml:space="preserve">A simple project template for working with Svelte and ASP.NET. The template consists of 2 projects - a Svelte project (Client) that utilizes SvelteKit for the routing and an ASP.NET API (Server).</Description>
 		<MoreInfo>https://github.com/Quickz/svelte-dotnet-template/</MoreInfo>
